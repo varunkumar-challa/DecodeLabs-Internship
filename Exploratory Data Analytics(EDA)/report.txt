@@ -1,0 +1,65 @@
+PROJECT 2
+EXPLORATORY DATA ANALYTICS (EDA) REPORT
+The Online Retail Analysis was conducted using Exploratory Data Analysis (EDA)
+techniques in Excel to uncover trends, identify anomalies, and generate business
+insights.
+STEPS TAKEN FOR EDA
+STEP 1: DESCRIPTIVE STATISTICS OVERVIEW
+▪ Numerical Columns were extracted from table and placed in a new sheet.
+▪ Two methods were applied:
+a. Basic Method: Done manually using basic Excel Functions.
+b. Advance Method: Done with the aid of Data Analysis (Descriptive
+Statistics).
+❖ Data Tab – Data Analysis – Descriptive Statistics.
+c. In summary, both methods derived the following:
+• Quantity: Average purchase quantity is 2.95 units, most occurring
+number is 1, max 5, min 1, median 5.
+• Unit Price: Mean price is approximately $356, but highly variable.
+Prices range widely from $11 to $700, indicating diverse product
+categories.
+• Items in Cart: Has an average of 5.5 items, with most customers
+buying between 1–10 items.
+• Total Price: Mean Revenue = $1,054. Some transactions are extreme
+outliers, with totals up to $3,456.
+STEP 2: PRODUCT SALES INSIGHTS AND CONDITIONAL
+FORMATTING
+▪ Pivot Tables were created from cleaned dataset.
+❖ Insert Tab – Pivot Table – From Table/Range
+▪ Insights were summarized using these Pivot Tables
+• Top sellers by revenue: Chairs ($195,620), Printers ($195,613), and
+Laptops ($192,127).
+• Lowest revenue: Phones ($151,722).
+• Sales are relatively balanced across categories, but high-ticket items
+(Laptop, Printer) drive revenue concentration.
+▪ Payment Method Distribution
+• Most used: Credit Card (234 orders, $263,848 revenue) and Online (258
+orders, $262,443 revenue), although Cash approached Credit Card,
+getting more orders (246 orders), revenue was underperformed in
+comparison.
+• Least used: Debit Card ($232,361).
+• Payment channels are evenly distributed, suggesting no strong customer
+preference bias.
+▪ Order Status
+• Orders are spread across statuses: Cancelled (250), Returned (247),
+Pending (237), Shipped (235), Delivered (231).
+• High cancellation/return rates may indicate fulfillment or product
+satisfaction issues.
+▪ Marketing Source Effectiveness
+• Top channel: Instagram ($275,285 revenue, 259 orders).
+• Strong performers: Email ($261,809) and Google ($250,441).
+• Weakest: Referral ($226,816).
+• Social media (Instagram, Facebook) drives significant sales, but
+referrals underperform.
+STEP 3: OUTLIER ANALYSIS
+• Quartile bounds: Q1 = $410.52, Q3 = $1,578.48, IQR = $1,167.96.
+• Upper bound for normal transactions: $1,751.93.
+• Transactions above this, for example, $3,456 are flagged as outliers.
+• These outliers suggest promotional stacking or bulk buying behavior.
+CONCLUSION
+a) Sales are evenly distributed across products and payment methods, but
+Instagram dominates marketing ROI.
+b) High cancellation and return rates need to be investigated.
+c) Outliers in total price highlight bulk purchases with coupons, which may
+distort average revenue metrics.
+d) The dataset shows balanced customer behavior with pockets of extreme
+values worth deeper analysis
