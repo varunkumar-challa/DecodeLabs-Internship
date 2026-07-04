@@ -1,0 +1,38 @@
+PROJECT 1
+DATA CLEANING AND PREPARATION
+The Dataset contained 14 Column Headers, 1.201 Rows and 309 Blank Cells. Dala Cleaning was performed in Power Query inside Excel.
+STEPS TAKEN TO PERFORM DATA CLEANING
+STEP 1: Converted the Main Dataset into a Table
+Shortcuts Ctrl + A to select the range Ctrl T to transform into a table
+STEP 2: Exported the Table into Power Query
+Data Tab From Table Range
+STEP 3: Removed Errors and Changed Data Types of Each Column
+Order ID-Text
+Date Date Type
+Customer ID - Text
+ProductText
+Quantity - Whole Number
+Unit Price - Currency
+Shipping Address - Text
+Payment Method - Text
+Order Status - Text
+Tracking Number - Text
+Items In Cart - Whole Number
+Coupon Code-l'ext
+Referral Source - Text
+Total Price-Currency
+STEP 4: Handled Blank Cells
+Coupon Code Column contained 309 blank cells
+Replaced the blanks with "NO COUPON
+STEP 5: Removed Duplicates
+Removed duplicates from the Order_11) Column
+STEP 6: Created Additional Columns
+Extracted the Year and Month from the Date Column.
+Renamed Month Name Column to Month
+Reordered Year and Month Column
+STEP 8: Formatted Columns
+Added the Suffix "s" to the texts in the Product Column.
+STEP 9: Filtered Rows to Check for Errors Missed.
+STEP 10: Exported Data from Power Query back into Excel.
+Home Tab Close and Loud
+STEP 11: Renamed Newly Transformed Data Table to Cleaned Data
